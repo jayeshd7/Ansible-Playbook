@@ -1,0 +1,10 @@
+---
+  
+  - name: install and start apache
+    hosts: web
+    vars:
+      http_port:80
+      max_clients:200
+    remote_user: root
+      
+            

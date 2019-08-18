@@ -1,0 +1,7 @@
+---
+ - name: This playbok used to start Jmeter
+   hosts: localhost
+   connection: local
+   tasks:
+   - name: start Jmeter
+     shell: "sh /Users/jayeshdalal/Desktop/Jmeter/apache-jmeter-5.0/bin/jmeter.sh"
